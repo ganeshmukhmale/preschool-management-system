@@ -4,11 +4,13 @@ import Footer from "../components/Footer";
 
 function Home() {
     return (
-        <div className="font-sans overflow-x-hidden text-sky-950">
+        <>
             <PublicNavbar />
-            <Middle />
+            <main className="flex-grow">
+                <Middle />
+            </main>
             <Footer />
-        </div>
+        </>
     );
 }
 

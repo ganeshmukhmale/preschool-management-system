@@ -84,14 +84,14 @@ function Middle() {
                                 className="relative z-10 w-full h-full object-cover rounded-[3rem] shadow-2xl border-8 border-white"
                             />
                             {/* Floating badges */}
-                            <div className="absolute -top-6 -right-6 bg-white p-4 rounded-2xl shadow-xl z-20 flex items-center gap-3 border-2 border-yellow-100 animate-bounce">
+                            {/* <div className="absolute -top-6 -right-6 bg-white p-4 rounded-2xl shadow-xl z-20 flex items-center gap-3 border-2 border-yellow-100 animate-bounce">
                                 <span className="text-3xl">🎨</span>
                                 <span className="font-bold text-sky-900">Creative</span>
                             </div>
                             <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl z-20 flex items-center gap-3 border-2 border-green-100 animate-bounce" style={{ animationDelay: '1s' }}>
                                 <span className="text-3xl">🧩</span>
                                 <span className="font-bold text-sky-900">Playful</span>
-                            </div>
+                            </div> */}
                         </div>
                     </motion.div>
                 </div>
@@ -229,7 +229,7 @@ function Middle() {
                     </motion.div>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <motion.img src="https://images.unsplash.com/photo-1544365558-35aa4ecf5615?q=80&w=400&auto=format&fit=crop" alt="Gallery 1" className="w-full h-48 md:h-64 object-cover rounded-3xl" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.1 }} />
+                        <motion.img src="https://static.vecteezy.com/system/resources/previews/036/196/521/non_2x/primary-school-illustration-of-students-children-and-school-building-with-the-concept-of-learning-and-knowledge-in-flat-cartoon-background-vector.jpg" alt="Gallery 1" className="w-full h-48 md:h-64 object-cover rounded-3xl" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.1 }} />
                         <motion.img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=400&auto=format&fit=crop" alt="Gallery 2" className="w-full h-48 md:h-64 object-cover rounded-3xl md:mt-8" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.2 }} />
                         <motion.img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=400&auto=format&fit=crop" alt="Gallery 3" className="w-full h-48 md:h-64 object-cover rounded-3xl" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.3 }} />
                         <motion.img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=400&auto=format&fit=crop" alt="Gallery 4" className="w-full h-48 md:h-64 object-cover rounded-3xl md:mt-8" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }} />
