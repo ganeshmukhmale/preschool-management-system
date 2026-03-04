@@ -1,14 +1,15 @@
 import PublicNavbar from "../components/PublicNavbar";
+import Middle from "../components/Middle";
 import Footer from "../components/Footer";
 
 function Home() {
-  return (
-    <>
-      <PublicNavbar />
-      <h1>Welcome to Pre-School</h1>
-      <Footer />
-    </>
-  );
+    return (
+        <div className="font-sans overflow-x-hidden text-sky-950">
+            <PublicNavbar />
+            <Middle />
+            <Footer />
+        </div>
+    );
 }
 
 export default Home;

@@ -27,16 +27,16 @@ function PublicNavbar() {
 
         {/* Logo with playful bounce on hover */}
         {/* Logo */}
-<Link to="/" className="flex items-center gap-3 group">
-  <img
-    src="/logo2.png"   // put your logo inside public folder
-    alt="Adhyayan Kids Academy"
-    className="h-12 w-auto group-hover:scale-105 transition duration-300"
-  />
-  <span className="text-white text-xl font-bold tracking-wide hidden sm:block">
-    Adhyayan Kids Academy
-  </span>
-</Link>
+        <Link to="/" className="flex items-center gap-3 group">
+          <img
+            src="/logo2.png"   // put your logo inside public folder
+            alt="Adhyayan Kids Academy"
+            className="h-12 w-auto group-hover:scale-105 transition duration-300"
+          />
+          <span className="text-white text-xl font-bold tracking-wide hidden sm:block">
+            Adhyayan Kids Academy
+          </span>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-6 relative">
@@ -131,9 +131,8 @@ function PublicNavbar() {
 
       {/* Mobile Menu with slide-down animation */}
       <div
-        className={`md:hidden bg-white shadow-xl transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? "max-h-96 py-6" : "max-h-0"
-        }`}
+        className={`md:hidden bg-white shadow-xl transition-all duration-300 overflow-hidden ${isMobileMenuOpen ? "max-h-96 py-6" : "max-h-0"
+          }`}
       >
         <div className="flex flex-col items-center gap-5 text-purple-600 font-semibold text-lg">
 
@@ -185,9 +184,8 @@ function PublicNavbar() {
 
             {/* Mobile Login Submenu (collapsible) */}
             <div
-              className={`transition-all duration-300 overflow-hidden ${
-                isMobileLoginOpen ? "max-h-40" : "max-h-0"
-              }`}
+              className={`transition-all duration-300 overflow-hidden ${isMobileLoginOpen ? "max-h-40" : "max-h-0"
+                }`}
             >
               <div className="flex flex-col items-center bg-purple-50 py-2">
                 <Link
