@@ -5,6 +5,8 @@ import About from "../common/pages/About";
 import Classes from "../common/pages/Classes";
 import Admission from "../common/pages/Admission";
 import Contact from "../common/pages/Contact";
+import PrivacyPolicy from "../common/pages/PrivacyPolicy";
+// import Terms from "../common/pages/Terms";
 import Register from "../common/pages/Register";
 
 import AdminLogin from "../admin/pages/AdminLogin";
@@ -28,6 +30,8 @@ function AppRoutes() {
         <Route path="/admission" element={<Admission />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        {/* <Route path="/terms" element={<Terms />} /> */}
 
         {/* 🔐 Admin */}
         <Route path="/admin/login" element={<AdminLogin />} />

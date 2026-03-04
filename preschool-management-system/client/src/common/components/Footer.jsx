@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, ArrowRight } from "lucide-react";
 import logo from "/logo2.png";
 
 function Footer() {
   return (
-    <footer className="bg-sky-100 text-sky-950 font-sans relative pt-16 pb-8">
+    <footer className="bg-sky-100 text-sky-950 font-sans relative pt-2 pb-8 mt-20">
       {/* Decorative Wavy Top Divider */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] transform -translate-y-[99%]">
         <svg
@@ -123,8 +124,8 @@ function Footer() {
             © {new Date().getFullYear()} Adyayan Kids School. All rights reserved.
           </p>
           <div className="flex gap-6 text-sky-600 font-semibold text-base">
-            <a href="#" className="hover:text-pink-500 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-pink-500 transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="hover:text-pink-500 transition-colors">Privacy Policy</Link>
+            <Link to="/TearmCondition" className="hover:text-pink-500 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>
